@@ -1,0 +1,60 @@
+.container {
+    border-radius: 15px;
+    width: 60%;
+    margin: auto;
+    padding: 50px;
+  
+    max-width: 100%;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    color: #FFE;
+    margin: 0, auto;
+  }
+  
+  .sedan {
+    background-color: #fa9638;
+  
+  }
+  
+  .suv {
+    background-color: #047f95;
+  
+  }
+  
+  .luxury{
+    background-color: #045838;
+  }
+  
+  button {
+    border: grey;
+    background: #FFF;
+    border-radius: 25px;
+    color: hsla(0, 0%, 0%, 0.507);
+    font-size: 15px;
+    width: 40%;
+    padding: 20px 15px;
+    margin: 40px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background: #dadada;
+  }
+  
+  p {
+    opacity: 0.8;
+    padding: 20px 40px;
+    font-size: 20px;
+  }
+  
+  h1 {
+    font-family: 'Arial';
+    padding: 20px 40px;
+  }
+  
+  .icon-wrapper {
+    padding: 20px 40px;
+  }
