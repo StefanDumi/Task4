@@ -1,43 +1,63 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
 .container {
-    border-radius: 15px;
-    width: 60%;
-    margin: auto;
-    padding: 50px;
-  
-    max-width: 100%;
+  border-radius: 15px;
+  max-width: 1000px;
+  margin: 50px auto;
+  height: 550px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  overflow: hidden;
   }
   
   .column {
-    float: left;
-    width: 33.33%;
     color: #FFE;
-    margin: 0, auto;
+    margin: 0 auto;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 80px auto 80px;
+    padding: 40px 40px;
   }
   
   .sedan {
     background-color: #fa9638;
-  
+  }
+
+  .sedan button {
+    color: #fa9638;
   }
   
   .suv {
     background-color: #047f95;
-  
+  }
+
+  .suv button {
+    color: #047f95;
   }
   
   .luxury{
     background-color: #045838;
   }
+
+  .luxury button {
+    color: #045838;
+  }
   
   button {
     border: grey;
     background: #FFF;
-    border-radius: 25px;
-    color: hsla(0, 0%, 0%, 0.507);
+    border-radius: 40px;
+    color: transparent;
     font-size: 15px;
-    width: 40%;
-    padding: 20px 15px;
-    margin: 40px;
+    height: 50px;
+    width: fit-content;
+    padding: 15px 30px;
     font-weight: bold;
+    align-self: center;
   }
   
   button:hover {
@@ -46,15 +66,15 @@
   
   p {
     opacity: 0.8;
-    padding: 20px 40px;
     font-size: 20px;
+    line-height: 1.5;
   }
   
   h1 {
-    font-family: 'Arial';
-    padding: 20px 40px;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
   }
   
   .icon-wrapper {
-    padding: 20px 40px;
+    align-self: center;
   }
